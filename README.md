@@ -165,6 +165,10 @@ Two costs never appear in the hourly rate and both have dominated a real bill he
 
 The same measured 15-second clip cost **$0.16** on a free-ingress host and **$1.87** on a host that was cheaper per hour but charged $0.039/GB. Rank on total cost, which `recommend_plan` now does, and read the `Data $` column before the `$/h` one.
 
+## See also
+
+- [Lantern Works](https://thelanternworks.com/?ref=readme-vastai-mcp) — free cross-provider GPU rental price comparison (cited rates, job-cost estimates, MCP server `lantern-works-deals-mcp`). Useful as a sanity check before you rent on Vast or elsewhere. Read-only; does not create instances.
+
 ## Notes on safety
 
 - The API key never reaches the rented host. The onstart script contains only public Hugging Face URLs, and errors are redacted before they are logged or returned.
